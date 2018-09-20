@@ -1,9 +1,19 @@
 body {
-    background: grey;
+    background: #777;
+    color : #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    font-size: 18px
+}
+h1,p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0px;
 }
 
 header, nav, .section, aside, footer{
-    background: white;
+    background: #ebebeb;
     text-align: center;
     color : grey;
     border-width: 2px;
@@ -14,27 +24,25 @@ header, nav, .section, aside, footer{
 }
 
 .section {
-    width : 49%;
+    width: 495px;
     padding-bottom: 154px;
-    margin-right : .25%;
     position : relative;
     float : left;
     
 }
 
 aside {
-    width : 49%;
+    width: 445px;
     float : left;
     padding-bottom: 154px;
     padding-right : 0px;
-    margin-left : .75%;
-    margin-    
+    margin-left: 10px;
 }
 
 
 #article {
-    background: gray;
-    color: white;
+    background: #777;
+    color: #ebebeb;
     position: absolute;
     top: 70px;
     left: 10px;
@@ -45,11 +53,11 @@ aside {
 }
 
 #heading,#paragraph {
-    background: white;
-    color: grey;
+    background: #ebebeb;
+    color: #777;
     position: absolute;
     text-align: center;
-    width : 97%;
+    width : 95%;
     padding-top: 8px;
     padding-bottom: 8px;
     
