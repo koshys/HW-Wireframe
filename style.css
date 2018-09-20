@@ -1,0 +1,75 @@
+body {
+    background: grey;
+}
+
+header, nav, .section, aside, footer{
+    background: white;
+    text-align: center;
+    color : grey;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 30px 0px 30px 0px; 
+    margin : 0px 0px 10px 0px;
+}
+
+.section {
+    width : 49%;
+    padding-bottom: 154px;
+    margin-right : .25%;
+    position : relative;
+    float : left;
+    
+}
+
+aside {
+    width : 49%;
+    float : left;
+    padding-bottom: 154px;
+    padding-right : 0px;
+    margin-left : .75%;
+    margin-    
+}
+
+
+#article {
+    background: gray;
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    width: 95%;
+    padding-bottom: 95px;
+    padding-top: 10px;
+    display : block;
+}
+
+#heading,#paragraph {
+    background: white;
+    color: grey;
+    position: absolute;
+    text-align: center;
+    width : 97%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+#heading {
+    top: 35px;
+    left: 10px;       
+}
+
+
+#paragraph {
+    top: 80px;
+    left: 10px;       
+}
+
+
+footer {
+    clear: both;
+    
+}
+
+
